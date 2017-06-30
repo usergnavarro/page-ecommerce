@@ -2,3 +2,16 @@
 body{
 	font-family: 'Francois One', sans-serif;
 }
+
+.aditii{
+	font-family: 'Lobster', cursive;
+	font-size: 50px;
+	color:#3cc3b5;
+}
+
+.top{
+	align-items: center;
+	text-align: center;
+	margin: 20px;
+	
+}
