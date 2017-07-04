@@ -7,11 +7,152 @@ body{
 	font-family: 'Lobster', cursive;
 	font-size: 50px;
 	color:#3cc3b5;
+	text-align: left;
 }
 
 .top{
-	align-items: center;
-	text-align: center;
-	margin: 20px;
+	padding: 20px;
+
+
 	
 }
+.basket{
+	font-size: 30px;
+	color:#3cc3b5;
+	display: flex;
+	top: 10px;
+}
+.basket-text{
+	color:#a1a1a1;
+	font-size: 25px;
+    margin-left: 10px;
+}
+.bar-search{
+	margin-top: 10px;
+	width: 500px;
+}
+.nav-links{
+	text-transform: uppercase;
+	padding: 5px;
+	font-size: 15px;
+	text-indent: 15px;
+
+}
+.nav>li>a{
+	color: #ffffff;
+}
+.separator{
+	border: solid 1px white;
+	top: 13px;
+    height: 13px;
+}
+.fundo-menu{
+	background-color: #4ccfc1;
+}
+.fundo-background{
+	background-color: #38c2b7;
+	height: 450px;
+}
+.back-style{
+	color: #ffffff;
+	top: 50px;
+    left: 100px;
+}
+
+.back-style h1{
+	text-transform: uppercase;
+	font-size: 45px;
+	padding-bottom: 10px;
+}
+
+.back-style p{
+	font-size:18px;
+	padding-bottom: 20px;
+}
+
+.button-style {
+	text-transform: uppercase;
+	background-color: transparent;
+	border: solid 2px white;
+	color:#ffffff;
+}
+
+.button-style:hover {
+	text-transform: uppercase;
+	background-color: lightcoral;
+	border: solid 2px white;
+	color:#ffffff;
+}
+
+
+
+
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.navegator{
+	color: #fff;
+	margin-left: 105px;
+    padding-top: 90px;
+}
+.pagination>li>a, .pagination>li>span {
+	border: none;
+	background-color: transparent;
+	color: #ffffff;
+}
+.trio{
+	text-transform: uppercase;
+	color: #afafaf;
+	font-size: 25px;
+
+}
+.button-trio{
+	text-transform: uppercase;
+	background-color: #3cc395;
+	border: solid 2px;
+	color:#ffffff;
+}
+
+.button-trio:hover{
+	text-transform: uppercase;
+	background-color: lightcoral;
+	border: solid 2px white;
+	color:#ffffff;
+}
+.shoes-trio{
+	top: 30px;
+    left: 20px;
+
+}
+.shirt-trio{
+	top: 30px;
+    left: 20px;
+
+}
+.bermuda-trio{
+	top: 30px;
+    left: 20px;
+}
+
+.border{
+	border-right: 1px solid #afafaf;;
+}
+.fundo-separador{
+	background-color: #38c2b7;
+	height: 60px;
+}
+.separador{
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+
+
