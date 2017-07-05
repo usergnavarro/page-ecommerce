@@ -12,9 +12,6 @@ body{
 
 .top{
 	padding: 20px;
-
-
-	
 }
 .basket{
 	font-size: 30px;
@@ -36,7 +33,6 @@ body{
 	padding: 5px;
 	font-size: 15px;
 	text-indent: 15px;
-
 }
 .nav>li>a{
 	color: #ffffff;
@@ -83,10 +79,6 @@ body{
 	border: solid 2px white;
 	color:#ffffff;
 }
-
-
-
-
 
 .pagination {
     display: inline-block;
@@ -154,5 +146,54 @@ body{
 	color: #ffffff;
 }
 
+.modulos{align-items: center;}
 
+.button-modulo{
+	text-transform: uppercase;
+	background-color: #3cc395;
+	color:#ffffff;
+}
+.modulo-title{
+	text-transform: uppercase;
+	color: #afafaf;
+	font-size: 25px;
+}
+.modulo-text{
+	text-transform: uppercase;
+	color: #afafaf;
+	font-size: 25px;
+}
+
+.thumbnail .caption{
+	margin-left: 40px;
+}
+.fundo-modulos{
+	margin-top: 50px;
+	margin-bottom: 70px;
+	margin-right: 10px;
+}
+
+.thumbnail{
+	width: 262.5px;
+	height: 279.22px;
+	border-bottom: solid 4px #3cc395;
+}
+
+.fundo-final{
+	background-color: #38c2b7;
+	height: 300px;
+}
+
+.lista-um{
+	color: #ffffff;
+	line-height: 25px;
+	list-style-type: none;
+}
+.title-lista{
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+.bloco-total{
+	padding-top: 30px;
+}
 
