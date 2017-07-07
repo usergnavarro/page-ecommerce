@@ -9,7 +9,12 @@ body{
 	color:#3cc3b5;
 	text-align: left;
 }
-
+input{
+	background-color: transparent;
+	border: none;
+	width: 400px;
+	height: 25px;
+}
 .top{
 	padding: 20px;
 }
@@ -39,7 +44,7 @@ body{
 }
 .separator{
 	border: solid 1px white;
-	top: 13px;
+	top: 18px;
     height: 13px;
 }
 .fundo-menu{
@@ -153,6 +158,12 @@ body{
 	background-color: #3cc395;
 	color:#ffffff;
 }
+.button-modulo:hover{
+	text-transform: uppercase;
+	background-color: lightcoral;
+	color:#ffffff;
+}
+
 .modulo-title{
 	text-transform: uppercase;
 	color: #afafaf;
@@ -170,7 +181,7 @@ body{
 .fundo-modulos{
 	margin-top: 50px;
 	margin-bottom: 70px;
-	margin-right: 10px;
+	margin-left: 250px;
 }
 
 .thumbnail{
@@ -196,4 +207,57 @@ body{
 .bloco-total{
 	padding-top: 30px;
 }
+.fundo-footer{
+	background-color: #2da89b;
+	height: 50px;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 15px;
+}
 
+@media (max-width:768px){
+
+
+.bar-search {
+    margin-top: 10px;
+    width: 300px;
+    margin-left: 30px;
+	}
+.back-style {
+    color: #ffffff;
+    top: 75px;
+    left: 120px;
+}
+input{
+	background-color: transparent;
+	border: none;
+	width: 270px;
+	height: 25px;
+}
+.lista-trio {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.border {
+    border-right: 1px solid #afafaf;
+    padding-left: 6px;
+    margin-right: -5px;
+}
+.fundo-modulos {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.thumbnail {
+    width: 162.5px;
+    height: 279.22px;
+    border-bottom: solid 2px #3cc395;
+}
+
+
+
+
+
+
+}
